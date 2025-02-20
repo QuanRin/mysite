@@ -1,0 +1,8 @@
+.idea/
+
+# Ignore all __pycache__ directories
+__pycache__/
+**/__pycache__/
+
+.env
+locallibrary/db.sqlite3
