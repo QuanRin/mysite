@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-28 11:22+0700\n"
+"POT-Creation-Date: 2025-03-04 09:47+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,7 +38,7 @@ msgstr ""
 msgid "Select a genre for this book"
 msgstr "Chọn thể loại cho cuốn sách này"
 
-#: catalog/models.py:38
+#: catalog/models.py:38 catalog/templates/catalog/book_detail.html:8
 msgid "Genre"
 msgstr "Thể loại"
 
@@ -66,6 +66,57 @@ msgstr "Tất cả sách"
 msgid "All authors"
 msgstr "Tất cả tác giả"
 
+#: catalog/templates/catalog/book_detail.html:2
+msgid "Title"
+msgstr "Tiêu đề"
+
+#: catalog/templates/catalog/book_detail.html:4
+#, fuzzy
+#| msgid "Authors"
+msgid "Author"
+msgstr "Số lượng tác giả"
+
+#: catalog/templates/catalog/book_detail.html:5
+msgid "Summary"
+msgstr "Tóm tắt"
+
+#: catalog/templates/catalog/book_detail.html:6
+msgid "ISBN"
+msgstr "Mã ISBN"
+
+#: catalog/templates/catalog/book_detail.html:7
+msgid "Language"
+msgstr "Ngôn ngữ"
+
+#: catalog/templates/catalog/book_detail.html:11
+#: catalog/templates/index.html:14
+#, fuzzy
+#| msgid "Copies"
+msgid "Copies"
+msgstr "Số lượng bản sao"
+
+#: catalog/templates/catalog/book_detail.html:21
+msgid "Due to be returned"
+msgstr "Ngày trả"
+
+#: catalog/templates/catalog/book_detail.html:23
+msgid "Imprint"
+msgstr "Ấn xuất bản"
+
+#: catalog/templates/catalog/book_detail.html:24
+msgid "Id"
+msgstr "Mã số"
+
+#: catalog/templates/catalog/book_list.html:2
+#, fuzzy
+#| msgid "Books"
+msgid "Book List"
+msgstr "Số loại sách"
+
+#: catalog/templates/catalog/book_list.html:14
+msgid "There are no books in the library."
+msgstr "Không có sách nào trong thư viện."
+
 #: catalog/templates/index.html:5
 msgid "Local Library Home"
 msgstr "Trang chủ thư viện địa phương"
@@ -92,16 +143,10 @@ msgstr "Thư viện có số lượng bản ghi như sau"
 msgid "Books"
 msgstr "Số loại sách"
 
-#: catalog/templates/index.html:14
-msgid "Copies"
-msgstr "Số lượng sách"
-
 #: catalog/templates/index.html:15
-#| msgid "Book availability"
 msgid "Copies available"
-msgstr "Tình trạng có sẵn của cuốn sách"
+msgstr "Bản sao có sẵn"
 
 #: catalog/templates/index.html:16
-#| msgid "All authors"
 msgid "Authors"
 msgstr "Số lượng tác giả"
