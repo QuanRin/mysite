@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-05 18:10+0700\n"
+"POT-Creation-Date: 2025-03-11 10:21+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,15 +18,27 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: catalog/models.py:15
+#: locallibrary/catalog/form.py:10
+msgid "Enter a date between now and 4 weeks (default 3)."
+msgstr "Nhập một ngày từ bây giờ đến 4 tuần tiếp (mặc định 3 tuần)"
+
+#: locallibrary/catalog/form.py:18
+msgid "Invalid date - renewal in past"
+msgstr "Ngày không hợp lệ - ngày trong quá khứ"
+
+#: locallibrary/catalog/form.py:22
+msgid "Invalid date - renewal more than 4 weeks ahead"
+msgstr "Ngày không hợp lệ - ngày quá 4 tuần"
+
+#: locallibrary/catalog/models.py:15
 msgid "Enter a book genre (e.g. Science Fiction)"
 msgstr "Nhập thể loại sách (ví dụ: Khoa học viễn tưởng)"
 
-#: catalog/models.py:25
+#: locallibrary/catalog/models.py:25
 msgid "Enter a brief description of the book"
 msgstr "Nhập mô tả ngắn gọn về cuốn sách"
 
-#: catalog/models.py:26
+#: locallibrary/catalog/models.py:27
 msgid ""
 "13 Character <a href=\"https://www.isbn-international.org/content/what-"
 "isbn\">ISBN number</a>"
@@ -34,102 +46,152 @@ msgstr ""
 "Số ISBN 13 ký tự <a href=\"https://www.isbn-international.org/content/what-"
 "isbn\">ISBN</a>"
 
-#: catalog/models.py:27
+#: locallibrary/catalog/models.py:28
 msgid "Select a genre for this book"
 msgstr "Chọn thể loại cho cuốn sách này"
 
-#: catalog/models.py:38 catalog/templates/catalog/book_detail.html:8
+#: locallibrary/catalog/models.py:39
+#: locallibrary/catalog/templates/catalog/book_detail.html:8
 msgid "Genre"
 msgstr "Thể loại"
 
-#: catalog/models.py:42
+#: locallibrary/catalog/models.py:44
 msgid "Unique ID for this particular book across whole library"
 msgstr "Mã ID duy nhất cho cuốn sách này trong toàn bộ thư viện"
 
-#: catalog/models.py:52
+#: locallibrary/catalog/models.py:54
 msgid "Book availability"
 msgstr "Tình trạng có sẵn của cuốn sách"
 
-#: catalog/templates/base_generic.html:8
+#: locallibrary/catalog/templates/base_generic.html:8
 msgid "Local Library"
 msgstr "Thư viện địa phương"
 
-#: catalog/templates/base_generic.html:21 catalog/templates/index.html:12
+#: locallibrary/catalog/templates/base_generic.html:21
+#: locallibrary/catalog/templates/index.html:12
 msgid "Home"
 msgstr "Trang chủ"
 
-#: catalog/templates/base_generic.html:22
+#: locallibrary/catalog/templates/base_generic.html:22
 msgid "All books"
 msgstr "Tất cả sách"
 
-#: catalog/templates/base_generic.html:23
+#: locallibrary/catalog/templates/base_generic.html:23
 msgid "All authors"
 msgstr "Tất cả tác giả"
 
-#: catalog/templates/base_generic.html:37
+#: locallibrary/catalog/templates/base_generic.html:25
+msgid "User"
+msgstr "Người dùng"
+
+#: locallibrary/catalog/templates/base_generic.html:28
+msgid "My Borrowed"
+msgstr "Sách đã mượn"
+
+#: locallibrary/catalog/templates/base_generic.html:35
+msgid "Logout"
+msgstr "Đăng xuất"
+
+#: locallibrary/catalog/templates/base_generic.html:42
+msgid "Login"
+msgstr "Đăng nhập"
+
+#: locallibrary/catalog/templates/base_generic.html:59
 msgid "previous"
 msgstr "Quay lại"
 
-#: catalog/templates/base_generic.html:48
+#: locallibrary/catalog/templates/base_generic.html:70
 msgid "next"
 msgstr "Tiếp theo"
 
-#: catalog/templates/catalog/book_detail.html:2
+#: locallibrary/catalog/templates/catalog/author_confirm_delete.html:2
+#, fuzzy
+#| msgid "Authors"
+msgid "Delete Author"
+msgstr "Tác giả"
+
+#: locallibrary/catalog/templates/catalog/author_confirm_delete.html:3
+msgid "Are you sure you want to delete the author: "
+msgstr "Bạn có chắc muốn xóa tác giả: "
+
+#: locallibrary/catalog/templates/catalog/author_confirm_delete.html:6
+msgid "Yes, delete."
+msgstr "Đồng ý, xóa"
+
+#: locallibrary/catalog/templates/catalog/book_detail.html:2
 msgid "Title"
 msgstr "Tiêu đề"
 
-#: catalog/templates/catalog/book_detail.html:4
+#: locallibrary/catalog/templates/catalog/book_detail.html:4
 #, fuzzy
 #| msgid "Authors"
 msgid "Author"
 msgstr "Số lượng tác giả"
 
-#: catalog/templates/catalog/book_detail.html:5
+#: locallibrary/catalog/templates/catalog/book_detail.html:5
 msgid "Summary"
 msgstr "Tóm tắt"
 
-#: catalog/templates/catalog/book_detail.html:6
+#: locallibrary/catalog/templates/catalog/book_detail.html:6
 msgid "ISBN"
 msgstr "Mã ISBN"
 
-#: catalog/templates/catalog/book_detail.html:7
+#: locallibrary/catalog/templates/catalog/book_detail.html:7
 msgid "Language"
 msgstr "Ngôn ngữ"
 
-#: catalog/templates/catalog/book_detail.html:11
-#: catalog/templates/index.html:14
+#: locallibrary/catalog/templates/catalog/book_detail.html:11
+#: locallibrary/catalog/templates/index.html:14
 #, fuzzy
 #| msgid "Copies"
 msgid "Copies"
 msgstr "Số lượng bản sao"
 
-#: catalog/templates/catalog/book_detail.html:21
+#: locallibrary/catalog/templates/catalog/book_detail.html:21
 msgid "Due to be returned"
 msgstr "Ngày trả"
 
-#: catalog/templates/catalog/book_detail.html:23
+#: locallibrary/catalog/templates/catalog/book_detail.html:23
 msgid "Imprint"
 msgstr "Ấn xuất bản"
 
-#: catalog/templates/catalog/book_detail.html:24
+#: locallibrary/catalog/templates/catalog/book_detail.html:24
 msgid "Id"
 msgstr "Mã số"
 
-#: catalog/templates/catalog/book_list.html:2
+#: locallibrary/catalog/templates/catalog/book_list.html:2
 #, fuzzy
 #| msgid "Books"
 msgid "Book List"
 msgstr "Số loại sách"
 
-#: catalog/templates/catalog/book_list.html:14
+#: locallibrary/catalog/templates/catalog/book_list.html:14
 msgid "There are no books in the library."
 msgstr "Không có sách nào trong thư viện."
 
-#: catalog/templates/index.html:5
+#: locallibrary/catalog/templates/catalog/book_renew_librarian.html:2
+msgid "Renew"
+msgstr "Làm mới"
+
+#: locallibrary/catalog/templates/catalog/book_renew_librarian.html:3
+#, fuzzy
+#| msgid "My Borrowed"
+msgid "Borrower"
+msgstr "Sách đã mượn"
+
+#: locallibrary/catalog/templates/catalog/book_renew_librarian.html:5
+msgid "Due date"
+msgstr "Ngày hết hạn"
+
+#: locallibrary/catalog/templates/catalog/book_renew_librarian.html:13
+msgid "Submit"
+msgstr "Nộp"
+
+#: locallibrary/catalog/templates/index.html:5
 msgid "Local Library Home"
 msgstr "Trang chủ thư viện địa phương"
 
-#: catalog/templates/index.html:7
+#: locallibrary/catalog/templates/index.html:7
 msgid ""
 "Welcome to LocalLibrary, a website developed by <em>Mozilla Developer "
 "Network</em>\n"
@@ -139,30 +201,30 @@ msgstr ""
 "<em>Mozilla Developer Network</em>\n"
 "        !"
 
-#: catalog/templates/index.html:9
+#: locallibrary/catalog/templates/index.html:9
 msgid "Dynamic content"
 msgstr "Nội dung động"
 
-#: catalog/templates/index.html:10
+#: locallibrary/catalog/templates/index.html:10
 msgid "The library has the following record counts"
 msgstr "Thư viện có số lượng bản ghi như sau"
 
-#: catalog/templates/index.html:13
+#: locallibrary/catalog/templates/index.html:13
 msgid "Books"
 msgstr "Số loại sách"
 
-#: catalog/templates/index.html:15
+#: locallibrary/catalog/templates/index.html:15
 msgid "Copies available"
 msgstr "Bản sao có sẵn"
 
-#: catalog/templates/index.html:16
+#: locallibrary/catalog/templates/index.html:16
 msgid "Authors"
 msgstr "Số lượng tác giả"
 
-#: catalog/templates/index.html:19
+#: locallibrary/catalog/templates/index.html:19
 msgid "You have visited this page"
 msgstr "Bạn đã truy cập trang web này"
 
-#: catalog/templates/index.html:20
+#: locallibrary/catalog/templates/index.html:20
 msgid "time"
 msgstr "lần"

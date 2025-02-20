@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-11 10:21+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: locallibrary/templates/registration/logged_out.html:2
+msgid "Logged out!"
+msgstr "Bạn đã đăng xuất!"
+
+#: locallibrary/templates/registration/logged_out.html:3
+msgid "Click here to login again."
+msgstr "Nhấn vào đây để đăng nhập lại."
+
+#: locallibrary/templates/registration/login.html:5
+msgid "Your username and password didn't match. Please try again."
+msgstr "Tên người dùng và mật khẩu không khớp. Vui lòng thử lại."
+
+#: locallibrary/templates/registration/login.html:16
+msgid "Please login to see this page."
+msgstr "Vui lòng đăng nhập để xem trang này."
+
+#: locallibrary/templates/registration/login.html:31
+msgid "Login"
+msgstr "Đăng nhập"
+
+#: locallibrary/templates/registration/login.html:36
+msgid "Lost password?"
+msgstr "Quên mật khẩu?"
+
+#: locallibrary/templates/registration/password_reset_complete.html:2
+msgid "The password has been changed!"
+msgstr "Mật khẩu đã được thay đổi!"
+
+#: locallibrary/templates/registration/password_reset_complete.html:3
+msgid "Log in again?"
+msgstr "Đăng nhập lại?"
+
+#: locallibrary/templates/registration/password_reset_confirm.html:3
+msgid "Please enter (and confirm) your new password."
+msgstr "Vui lòng nhập (và xác nhận) mật khẩu mới của bạn."
+
+#: locallibrary/templates/registration/password_reset_confirm.html:10
+msgid "New password:"
+msgstr "Mật khẩu mới:"
+
+#: locallibrary/templates/registration/password_reset_confirm.html:17
+msgid "Confirm password:"
+msgstr "Xác nhận mật khẩu:"
+
+#: locallibrary/templates/registration/password_reset_confirm.html:23
+msgid "Change my password"
+msgstr "Thay đổi mật khẩu của tôi"
+
+#: locallibrary/templates/registration/password_reset_confirm.html:28
+msgid "Password reset failed"
+msgstr "Đặt lại mật khẩu không thành công"
+
+#: locallibrary/templates/registration/password_reset_done.html:4
+msgid "We've emailed you instructions for setting your password."
+msgstr "Chúng tôi đã gửi email hướng dẫn đặt lại mật khẩu cho bạn."
+
+#: locallibrary/templates/registration/password_reset_done.html:6
+msgid "If they haven't arrived in a few minutes, "
+msgstr "Nếu bạn không nhận được trong vài phút, "
+
+#: locallibrary/templates/registration/password_reset_done.html:7
+msgid "check your spam folder."
+msgstr "hãy kiểm tra thư mục spam của bạn."
