@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-26 12:12+0700\n"
+"POT-Creation-Date: 2025-02-26 19:56+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,10 +38,14 @@ msgstr ""
 msgid "Select a genre for this book"
 msgstr "Chọn thể loại cho cuốn sách này"
 
-#: catalog/models.py:37
+#: catalog/models.py:38
+msgid "Genre"
+msgstr "Thể loại"
+
+#: catalog/models.py:42
 msgid "Unique ID for this particular book across whole library"
 msgstr "Mã ID duy nhất cho cuốn sách này trong toàn bộ thư viện"
 
-#: catalog/models.py:47
+#: catalog/models.py:52
 msgid "Book availability"
 msgstr "Tình trạng có sẵn của cuốn sách"
