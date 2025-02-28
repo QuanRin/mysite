@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-26 19:56+0700\n"
+"POT-Creation-Date: 2025-02-28 11:22+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,3 +49,59 @@ msgstr "Mã ID duy nhất cho cuốn sách này trong toàn bộ thư viện"
 #: catalog/models.py:52
 msgid "Book availability"
 msgstr "Tình trạng có sẵn của cuốn sách"
+
+#: catalog/templates/base_generic.html:7
+msgid "Local Library"
+msgstr "Thư viện địa phương"
+
+#: catalog/templates/base_generic.html:19 catalog/templates/index.html:12
+msgid "Home"
+msgstr "Trang chủ"
+
+#: catalog/templates/base_generic.html:20
+msgid "All books"
+msgstr "Tất cả sách"
+
+#: catalog/templates/base_generic.html:21
+msgid "All authors"
+msgstr "Tất cả tác giả"
+
+#: catalog/templates/index.html:5
+msgid "Local Library Home"
+msgstr "Trang chủ thư viện địa phương"
+
+#: catalog/templates/index.html:7
+msgid ""
+"Welcome to LocalLibrary, a website developed by <em>Mozilla Developer "
+"Network</em>\n"
+"        !"
+msgstr ""
+"Chào mừng bạn đến với Thư viện địa phương, một trang web được phát triển bởi "
+"<em>Mozilla Developer Network</em>\n"
+"        !"
+
+#: catalog/templates/index.html:9
+msgid "Dynamic content"
+msgstr "Nội dung động"
+
+#: catalog/templates/index.html:10
+msgid "The library has the following record counts"
+msgstr "Thư viện có số lượng bản ghi như sau"
+
+#: catalog/templates/index.html:13
+msgid "Books"
+msgstr "Số loại sách"
+
+#: catalog/templates/index.html:14
+msgid "Copies"
+msgstr "Số lượng sách"
+
+#: catalog/templates/index.html:15
+#| msgid "Book availability"
+msgid "Copies available"
+msgstr "Tình trạng có sẵn của cuốn sách"
+
+#: catalog/templates/index.html:16
+#| msgid "All authors"
+msgid "Authors"
+msgstr "Số lượng tác giả"
