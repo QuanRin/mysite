@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-04 09:47+0700\n"
+"POT-Creation-Date: 2025-03-05 18:10+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,21 +50,29 @@ msgstr "Mã ID duy nhất cho cuốn sách này trong toàn bộ thư viện"
 msgid "Book availability"
 msgstr "Tình trạng có sẵn của cuốn sách"
 
-#: catalog/templates/base_generic.html:7
+#: catalog/templates/base_generic.html:8
 msgid "Local Library"
 msgstr "Thư viện địa phương"
 
-#: catalog/templates/base_generic.html:19 catalog/templates/index.html:12
+#: catalog/templates/base_generic.html:21 catalog/templates/index.html:12
 msgid "Home"
 msgstr "Trang chủ"
 
-#: catalog/templates/base_generic.html:20
+#: catalog/templates/base_generic.html:22
 msgid "All books"
 msgstr "Tất cả sách"
 
-#: catalog/templates/base_generic.html:21
+#: catalog/templates/base_generic.html:23
 msgid "All authors"
 msgstr "Tất cả tác giả"
+
+#: catalog/templates/base_generic.html:37
+msgid "previous"
+msgstr "Quay lại"
+
+#: catalog/templates/base_generic.html:48
+msgid "next"
+msgstr "Tiếp theo"
 
 #: catalog/templates/catalog/book_detail.html:2
 msgid "Title"
@@ -150,3 +158,11 @@ msgstr "Bản sao có sẵn"
 #: catalog/templates/index.html:16
 msgid "Authors"
 msgstr "Số lượng tác giả"
+
+#: catalog/templates/index.html:19
+msgid "You have visited this page"
+msgstr "Bạn đã truy cập trang web này"
+
+#: catalog/templates/index.html:20
+msgid "time"
+msgstr "lần"
