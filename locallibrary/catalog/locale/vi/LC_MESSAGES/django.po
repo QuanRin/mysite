@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-05 18:10+0700\n"
+"POT-Creation-Date: 2025-03-11 07:40+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,11 +66,27 @@ msgstr "Tất cả sách"
 msgid "All authors"
 msgstr "Tất cả tác giả"
 
-#: catalog/templates/base_generic.html:37
+#: catalog/templates/base_generic.html:25
+msgid "User"
+msgstr "Người dùng"
+
+#: catalog/templates/base_generic.html:28
+msgid "My Borrowed"
+msgstr "Sách đã mượn"
+
+#: catalog/templates/base_generic.html:35
+msgid "Logout"
+msgstr "Đăng xuất"
+
+#: catalog/templates/base_generic.html:42
+msgid "Login"
+msgstr "Đăng nhập"
+
+#: catalog/templates/base_generic.html:59
 msgid "previous"
 msgstr "Quay lại"
 
-#: catalog/templates/base_generic.html:48
+#: catalog/templates/base_generic.html:70
 msgid "next"
 msgstr "Tiếp theo"
 
