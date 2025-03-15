@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-11 10:41+0700\n"
+"POT-Creation-Date: 2025-03-15 13:46+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -115,6 +115,18 @@ msgstr "Bạn có chắc muốn xóa tác giả: "
 #: catalog/templates/catalog/author_confirm_delete.html:6
 msgid "Yes, delete."
 msgstr "Đồng ý, xóa"
+
+#: catalog/templates/catalog/author_list.html:2
+#, fuzzy
+#| msgid "Authors"
+msgid "Author List"
+msgstr "Danh sách tác giả"
+
+#: catalog/templates/catalog/author_list.html:15
+#, fuzzy
+#| msgid "There are no books in the library."
+msgid "There are no authors."
+msgstr "Không có tác giả."
 
 #: catalog/templates/catalog/book_detail.html:2
 msgid "Title"
