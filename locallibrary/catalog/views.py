@@ -129,3 +129,14 @@ class AuthorDelete(PermissionRequiredMixin, DeleteView):
             return HttpResponseRedirect(
                 reverse("author-delete", kwargs={"pk": self.object.pk})
             )
+
+
+class AuthorList(generic.ListView):
+    model = Author
+    paginate_by = PAGINATE_BY
+
+    def get_context_data(self, **kwargs):
+        # Call the base implementation first to get the context
+        context = super(AuthorList, self).get_context_data(**kwargs)
+        return context
+
